@@ -307,7 +307,7 @@
     <sort>
       <key variable="citation-number" sort="ascending"/>
     </sort>
-    <layout delimiter="," prefix="[", sufix="]">
+    <layout delimiter="," prefix="[", suffix="]">
       <text variable="citation-number"/>
     </layout>
   </citation>
