@@ -114,7 +114,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="text" et-al-min="7" et-al-use-first="1" initialize-with=". "/>
+      <name and="text" et-al-min="1000" et-al-use-first="1" initialize-with=". "/>
       <label form="short" prefix=", " text-case="capitalize-first"/>
       <et-al font-style="italic"/>
       <substitute>
@@ -307,7 +307,7 @@
     <sort>
       <key variable="citation-number" sort="ascending"/>
     </sort>
-    <layout delimiter="," prefix="[", suffix="]">
+    <layout delimiter=", " prefix="[", suffix="]">
       <text variable="citation-number"/>
     </layout>
   </citation>
