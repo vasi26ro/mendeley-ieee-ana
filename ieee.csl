@@ -303,15 +303,12 @@
     </choose>
   </macro>
   <!-- Citation -->
-  <citation >
+  <citation collapse="citation-number">
     <sort>
-      <key variable="citation-number"/>
+      <key variable="citation-number" sort="ascending"/>
     </sort>
-    <layout delimiter=", ">
-      <group prefix="[" suffix="]" delimiter=", ">
-        <text variable="citation-number"/>
-        <text macro="citation-locator"/>
-      </group>
+    <layout delimiter="," vertical-align="sup">
+      <text variable="citation-number"/>
     </layout>
   </citation>
   <!-- Bibliography -->
